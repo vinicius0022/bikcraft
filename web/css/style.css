@@ -24,6 +24,7 @@ p {
 .btn:hover {
     color: #fff;
     border-color:#fff;
+    cursor: pointer;
 }
 
 .btn.btn-preto:hover {
@@ -223,6 +224,10 @@ img {
 .produtos_icone {
     background-color: #000;
     padding: 20px;
+}
+
+.produtos_icone img {
+    margin: 0 auto;
 }
 
 .call {
