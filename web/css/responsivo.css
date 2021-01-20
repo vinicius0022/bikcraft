@@ -54,6 +54,10 @@
 		border-color: #fff;
 	}
 
+	.header_menu ul li a.menu_ativo {
+		border-color: #fff;
+	}
+
 	/* Introdução */
 
 	.introducao {
@@ -67,6 +71,10 @@
 		font-size: 36px;
 	}
 
+	.introducao-interna {
+		margin-top: 0px;
+	}
+
 	/* Call */
 
 	.call {
@@ -77,5 +85,18 @@
 
 	.qualidade:after {
 		display: none;
+	}
+
+	/* Sobre */
+
+	.missao_sobre p {
+		padding-right: 0px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.missao_sobre ul li {
+		font-size: 14px;
+		line-height: 25px;
 	}
 }
