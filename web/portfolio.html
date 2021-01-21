@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"href="css/normalize.css"/>
-    <link rel="stylesheet"href="css/reset.css"/>
-    <link rel="stylesheet"href="css/grid.css"/>
-    <link rel="stylesheet"href="css/style.css"/>
-    <link rel="stylesheet"href="css/portfolio.css"/>
-    <link rel="stylesheet"href="css/responsivo.css"/>
+    <meta charset="utf-8">
     <title>Bikcraft - Portfólio</title>
+    <link rel="stylesheet"href="css/normalize.css">
+    <link rel="stylesheet"href="css/reset.css">
+    <link rel="stylesheet"href="css/grid.css">
+    <link rel="stylesheet"href="css/style.css">
+    <link rel="stylesheet"href="css/portfolio.css">
+    <link rel="stylesheet"href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
     <header class="header">
         <div class="container">
             <a href="index.html" class="grid-4">
-                <img src="/img/bikcraft.svg" alt="logo bikcraft">
+                <img src="img/bikcraft.svg" alt="logo bikcraft">
             </a>
             <nav class="header_menu grid-12">
                 <ul>
@@ -35,7 +35,7 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container" data-slide="quote">
         <blockquote class="quote_clientes">
             <p>"No mundo atual a contínua expansão de nossa
                 atividade cumpre um papel essencial na formulação da
@@ -43,15 +43,34 @@
             </p>
             <cite>Barbara Moss</cite>
         </blockquote>
+        <blockquote class="quote_clientes">
+            <p>"Preste atenção, o mundo é um moinho.
+                Vai triturar teus sonhos, tão mesquinho.
+                Vai reduzir as ilusões a pó"
+            </p>
+            <cite>Cartola</cite>
+        </blockquote>
+        <blockquote class="quote_clientes">
+            <p>"Se Leonardo dá vinte,
+                por que é que eu não posso dar dois?"
+            </p>
+            <cite>Bezerra da Silva</cite>
+        </blockquote>
     </section>
 
     <section class="portfolio">
-        <div class="container">
+        <div class="container" data-slide="portfolio">
             <ul class="portfolio_lista">
-                <li class="grid-8"><img src="/img/portfolio/retro.jpg" alt="bicicleta retro" ></li>
-                <li class="grid-8"><img src="/img/portfolio/passeio.jpg" alt="bicicleta passeio" ></li>
-                <li class="grid-16"><img src="/img/portfolio/esporte.jpg" alt="bicicleta esporte" ></li>
-            </ul>      
+                <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="bicicleta retro" ></li>
+                <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="bicicleta passeio" ></li>
+                <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="bicicleta esporte" ></li>
+            </ul>  
+            
+            <ul class="portfolio_lista">
+                <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="bicicleta passeio" ></li>
+                <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="bicicleta retro" ></li>
+                <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="bicicleta esporte" ></li>
+            </ul> 
         </div>
     </section>
 
@@ -80,9 +99,9 @@
                 <div class="grid-4 footer_redes">
                     <h3>Redes Sociais</h3>
                     <ul>
-                        <li><a href="#"><img src="/img/redes-sociais/facebook.svg" alt="facebook logo"></a></li>
-                        <li><a href="#"><img src="/img/redes-sociais/instagram.svg" alt="instagram logo"></a></li>
-                        <li><a href="#"><img src="/img/redes-sociais/twitter.svg" alt="twitter logo"></a></li>
+                        <li><a href="#"><img src="img/redes-sociais/facebook.svg" alt="facebook logo"></a></li>
+                        <li><a href="#"><img src="img/redes-sociais/instagram.svg" alt="instagram logo"></a></li>
+                        <li><a href="#"><img src="img/redes-sociais/twitter.svg" alt="twitter logo"></a></li>
                     </ul>
                 </div>
             </div>
@@ -94,5 +113,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/simple-slide.js"></script>
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
