@@ -30,12 +30,12 @@
 
     <section class="introducao-interna interna_contato">
         <div class="container">
-            <h1>Contato</h1>
-            <p>Tire suas dúvidas com a gente</p>
+            <h1 data-anime="400" class="fadeInDown">Contato</h1>
+            <p data-anime="800" class="fadeInDown">Tire suas dúvidas com a gente</p>
         </div>
     </section>
 
-    <section class="contato container">
+    <section class="contato container fadeInDown" data-anime="1200">
         <form id="contato_form" class="grid-8 contato_form">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome">
@@ -67,7 +67,7 @@
         </div>
     </section>
 
-    <section class="container contato_mapa">
+    <section class="container contato_mapa fadeInDown" data-anime="1200">
         <a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço Bikcraft"></a>
     </section>
 
@@ -110,5 +110,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
