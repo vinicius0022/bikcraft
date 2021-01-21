@@ -167,11 +167,16 @@
 	}
 	
 	.footer h3:after {
-		margin: 6px 0 12px 116px;
+		margin: 6px 0 12px 120px;
 	}
 
 	.footer_historia {
 		padding-right: 0;
 
+	}
+
+	.footer_redes ul li {
+		margin-right: 5px;
+		margin-left: 5px;
 	}
 }
